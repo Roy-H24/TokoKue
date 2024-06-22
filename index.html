@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kue</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Hubungkan dengan file CSS -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Toko Kue</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Selamat Datang di Toko Kue Kami!</h2>
+            <p>Di sini kami menawarkan berbagai kue lezat untuk setiap kesempatan.</p>
+        </div>
+    </section>
+
+    <section id="produk">
+        <div class="container">
+            <h2>Produk Kami</h2>
+            <div class="produk">
+                <img src="Black Forest.jpg" alt="Kue 1">
+                <h5>Kue Manis</h5>
+                <p>Deskripsi singkat tentang kue ini.</p>
+                <p><strong>Harga:</strong> Rp 10000</p>
+                <button onclick="beliProduk('Kue Manis', 'Browis')">Beli Sekarang</button>
+            </div>
+
+            <div class="produk">
+                <img src="cromboloni.jpg" alt="Kue 2">
+                <h5>Kue Coklat</h5>
+                <p>Deskripsi singkat tentang kue ini.</p>
+                <p><strong>Harga:</strong> Rp 70000</p>
+                <button onclick="beliProduk('Kue Coklat', 'black flores')">Beli Sekarang</button>
+            </div>
+
+            <div class="produk">
+                <img src="cup cake.jpg" alt="Kue 2">
+                <h5>Kue Coklat</h5>
+                <p>Deskripsi singkat tentang kue ini.</p>
+                <p><strong>Harga:</strong> Rp 85000</p>
+                <button onclick="beliProduk('Kue Coklat', 'black flores')">Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="container">
+            <h2>Tentang Kami</h2>
+            <p>Deskripsi singkat tentang toko kue Anda dan visi misi perusahaan.</p>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <form action="proses_kontak.php" method="POST">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Toko Kue. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Hubungkan dengan file JavaScript -->
+</body>
+</html>
