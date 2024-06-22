@@ -1,4 +1,7 @@
-<?php include 'header.php';?>
+<?php 
+$menu = "ulasan";
+include 'header.php';
+?>
     <div class="container">
        Ulasan
     </div>

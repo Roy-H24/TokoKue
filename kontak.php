@@ -1,4 +1,7 @@
-<?php include 'header.php';?>
+<?php 
+$menu = "kontak";
+include 'header.php';
+?>
     <div class="container">
        Kontak
     </div>

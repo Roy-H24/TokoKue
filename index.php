@@ -1,4 +1,8 @@
-<?php include 'header.php';?>
+
+<?php 
+$menu = "beranda";
+include 'header.php';
+?>
     <selection class="grid">
         <div class="container">
             <div class="content">

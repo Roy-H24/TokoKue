@@ -1,6 +1,7 @@
-<?php include 'header.php';?>
-
-
+<?php 
+$menu = "tentangkami";
+include 'header.php';
+?>
     <div class="container">
         <center>
             <h2 class="mb-5">Tentang Kami</h2>

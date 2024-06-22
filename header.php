@@ -30,15 +30,17 @@ if ($conn->connect_error) {
     <selection class="menu">
         <div class="nav">
             <div class="logo">
-                <h1>Maria<b>Bakery</b></h1>
+                <a href="index.php" style="text-decoration:none">
+                    <h1>Maria<b>Bakery</b></h1>
+                </a>
             </div>
             <div>
                 <ul>
-                    <li><a href="index.php" class="active">Beranda</a></li>
-                    <li><a href="produk.php">Produk</a></li>
-                    <li><a href="tentangkami.php">Tentang Kami</a></li>
-                    <li><a href="ulasan.php">Ulasan</a></li>
-                    <li><a href="kontak.php">Kontak</a></li>
+                    <li><a href="index.php" class="<?php echo ($menu=="beranda" ? "active" : "") ?>">Beranda</a></li>
+                    <li><a href="produk.php"  class="<?php echo ($menu=="produk" ? "active" : "") ?>">Produk</a></li>
+                    <li><a href="tentangkami.php" class="<?php echo ($menu=="tentangkami" ? "active" : "") ?>">Tentang Kami</a></li>
+                    <li><a href="ulasan.php" class="<?php echo ($menu=="ulasan" ? "active" : "") ?>">Ulasan</a></li>
+                    <li><a href="kontak.php" class="<?php echo ($menu=="kontak" ? "active" : "") ?>">Kontak</a></li>
                 </ul>
                 </nav>
             </div>
