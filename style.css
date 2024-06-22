@@ -6,7 +6,7 @@
 
 body{
     margin: 0 100px;
-    background-color: rgb(201, 142, 33) ;
+    background-color: rgb(201, 142, 33) !important ;
 }
 
 

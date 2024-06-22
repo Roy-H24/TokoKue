@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulasan - Maria Bakery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Maria Bakery</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="produk.html">kue</a></li>
+                <li><a href="Pastry.html">Pastry</a></li>
+                <li><a href="newarrivals.html">Tentang Kami</a></li>
+                <li><a href="tentangkami.html">tentang kami</a></li>
+                <li><a class="active" href="Ulasan.html">Ulasan</a></li>
+                <li><a href="kontak.html">kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="reviews">
+            <h2>Ulasan Pelanggan</h2>
+            <div class="review-list">
+                <!-- Reviews will be dynamically added here -->
+            </div>
+            <div class="review-form">
+                <h3>Tinggalkan ulasan</h3>
+                <form id="reviewForm">
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Ulasan">Ulasan:</label>
+                        <textarea id="Ulasan" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Peringkat">Peringkat:</label>
+                        <select id="Peringkat" required>
+                            <option value="5">5 - enak sekali</option>
+                            <option value="4">4 - cocok untuk dibawa piknik</option>
+                            <option value="3">3 - Good</option>
+                            <option value="2">2 - Fair</option>
+                            <option value="1">1 - Poor</option>
+                        </select>
+                    </div>
+                    <button type="submit">mengirim ulasan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
