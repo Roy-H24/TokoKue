@@ -5,6 +5,7 @@ include 'header.php';
     <div class="container">
        Kontak
     </div>
+    </div>
     <div class="container d-flex justify-content-center">
 			<div class="row my-2 mx-2">
 				<div class="col-md-6">
@@ -16,17 +17,17 @@ include 'header.php';
 
 					<form>
 						<div class="form-group pt-2 pl-1">
-							<label for="exampleInputName">Your name</label>
+							<label for="exampleInputName">Nama</label>
 							<input type="text" class="form-control" id="exampleInputName">
 						</div>
 
 						<div class="form-group pl-1">
-							<label for="exampleInputEmail1">Your email address</label>
+							<label for="exampleInputEmail1">Email</label>
  						 	<input type="email" class="form-control" id="exampleInputEmail1">
 						</div>
 
 						<div class="form-group pl-1">
-    						<label for="exampleFormControlTextarea1">Your message</label>
+    						<label for="exampleFormControlTextarea1">Pesan</label>
     						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
 
   						</div>
@@ -39,6 +40,5 @@ include 'header.php';
 						
 			</div><!--col-->
 		</div><!--row-->
-			
 		</div>
 <?php include 'footer.php';?>
