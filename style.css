@@ -6,7 +6,7 @@
 
 body{
     margin: 0 100px;
-    background-color: rgb(201, 142, 33) !important ;
+    background-color: #ee8dc4 !important ;
 }
 
 
@@ -76,7 +76,7 @@ input{
 
 }
 .signup{
-    background-color: #ff511c;
+    background-color: #fc86d5;
     color: #ffffff;
     outline: none;
     border: none;
@@ -129,7 +129,7 @@ input{
 
 .content .content-left button{
     padding: 10px 23px;
-    background-color: #ff511c;
+    background-color: #eb73a3;
     color: #ffffff;
     border-radius: 5px;
     border: none;
@@ -243,7 +243,7 @@ input{
 
 
 .category .card .price span .plus-icon{
-    color: #ff511c;
+    color: #ee8dc4;
     font-size: 20px;
     cursor: pointer;
 }
@@ -257,5 +257,5 @@ input{
 
 ::-webkit-scrollbar-thumb{
     border-radius: 20px;
-    background-color: #ff511c;
+    background-color: #f48db9;
 }

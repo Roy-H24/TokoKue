@@ -8,14 +8,14 @@ include 'header.php';
   <source src="video/video.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-    <selection class="grid">
+    <selection id="bawah" class="grid">
         <div class="container">
             <div class="content">
                 <div class="content-left">
                     <div class="info">
-                        <h2>Silakan Order Kue Kami <br>Berbagai macam rasa dan bentuk</h2>
-                        <p>Manjakan Lidah , <br>
-                            Hangatkan Hati </p>
+                        <h2>Setiap Kue Kami<br>Dibuat Dengan Cinta</h2>
+                        <p>Maniskan HariMu , <br>
+                     </p>
                     </div>
                     <a href="produk.php"><button>Pesan Sekarang</button></a>
                 </div>
