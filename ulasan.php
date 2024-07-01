@@ -34,7 +34,7 @@ include 'header.php';
                 <h6 class="fw-bold mb-1">Marisa clau</h6>
                 <div class="d-flex align-items-center mb-3">
                   <p class="mb-0">
-                    juni,19 2024
+                    juni,23 2024
                     <span class="badge bg-primary">Tertunda</span>
                   </p>
                   <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
@@ -59,7 +59,7 @@ include 'header.php';
                 <h6 class="fw-bold mb-1">Larasati</h6>
                 <div class="d-flex align-items-center mb-3">
                   <p class="mb-0">
-                    Mei, 25 2024
+                    juni, 15 2024
                     <span class="badge bg-success">Berhasil</span>
                   </p>
                   <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
@@ -84,7 +84,7 @@ include 'header.php';
                 <h6 class="fw-bold mb-1">Alexa diandra</h6>
                 <div class="d-flex align-items-center mb-3">
                   <p class="mb-0">
-                    March 24, 2021
+                  mei 29, 2021
                     <span class="badge bg-danger">Rejected</span>
                   </p>
                   <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
@@ -92,10 +92,7 @@ include 'header.php';
                   <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                 </div>
                 <p class="mb-0">
-                  There are many variations of passages of Lorem Ipsum available, but the
-                  majority have suffered alteration in some form, by injected humour, or
-                  randomised words which don't look even slightly believable. If you are
-                  going to use a passage of Lorem Ipsum, you need to be sure.
+                  kue nya endulita,lembut dimulut,coklatnya lumer.
                 </p>
               </div>
             </div>
@@ -109,10 +106,10 @@ include 'header.php';
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(24).webp" alt="avatar" width="60"
                 height="60" />
               <div>
-                <h6 class="fw-bold mb-1">Betty Walker</h6>
+                <h6 class="fw-bold mb-1">Merissa</h6>
                 <div class="d-flex align-items-center mb-3">
                   <p class="mb-0">
-                    March 30, 2021
+                    Mei 28, 2024
                     <span class="badge bg-primary">Pending</span>
                   </p>
                   <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
@@ -120,10 +117,7 @@ include 'header.php';
                   <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                 </div>
                 <p class="mb-0">
-                  It uses a dictionary of over 200 Latin words, combined with a handful of
-                  model sentence structures, to generate Lorem Ipsum which looks
-                  reasonable. The generated Lorem Ipsum is therefore always free from
-                  repetition, injected humour, or non-characteristic words etc.
+                  mantul!!!!!
                 </p>
               </div>
             </div>
@@ -147,7 +141,7 @@ include 'header.php';
                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp" alt="avatar" width="60"
                 height="60" />
               <div>
-                <h6 class="fw-bold mb-1">Maggie Marsh</h6>
+                <h6 class="fw-bold mb-1">Maureen</h6>
                 <div class="d-flex align-items-center mb-3">
                   <p class="mb-0">
                     March 07, 2021
